@@ -1,15 +1,74 @@
+.env
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/develope?templates=macos
+
+### marsgitignore/cOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fsevents
+.Spotlight-V100
+.TmporaryItems.Trashes.VolumeIcon.icns
+de
+
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+# End of https://www.toptal.com/developers/gitignore/api/macos
+
+#Created by htts://www.tpal.com/dvelopers/gitigore/api/linux,pyhon
+# Edt t https://www.topta.com/deveopers/git potentiallignore?templates=linux,python
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
+#C extenions
 *.so
 
-# Distribution / packaging
+# Disrbution / packaging
 .Python
-build/
-develop-eggs/
+buid/
+deveop-eggs/
 dist/
 downloads/
 eggs/
@@ -20,38 +79,26 @@ parts/
 sdist/
 var/
 wheels/
-pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+#PyInstaller
+#  Usually tese files re written by a python criptfrom template
+#  b still s a haefore PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
+# Ins be added to the gv/
+venv/
+ENV/
+env.bak/
+venv.bage.*
 .cache
 nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
+coverage.etions
 *.mo
 *.pot
 
@@ -59,71 +106,35 @@ coverage.xml
 *.log
 local_settings.py
 db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# PEP 582; used by e.g. github.com/David-OConnor/pyflow
-__pypackages__/
-
-# Celery stuff
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
+db.sqliproject sar
+#  option (noire idea folder.
+#.i  commonly ignored for librarieit-your-cal configurion
 /site
 
 # mypy
 .mypy_cache/
-.dmypy.json
-dmypy.json
+.dmde pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configuation file - https://python-poetry.org/docs/configb/main/Globalrol.
+#   https://pdm.fming.dev/#use-wiypy.ruff_cache/
 
-# Pyre type checker
-.pyre/
+# End of https://www.toptal.com/develConnoebook
+.ipynb_checkpoints
+
+# IPython
+profile_re these fiak/
+
+# Spyder project settings
+.spyderproject
+bug symbols
+cython_debug/
+
+# PyCharm
+#  Jn
+
+# pipenv
+#  r/pyflow and github.com/pdm-project/pdm
+__pypackages__/aintained in a separate JetBse oendencies
+#   having no cross-platform 
+#   insat.rains.gitignore that can
+#  be found at https://gito Pipfile.lock, it is generally recommey recommended for bnai

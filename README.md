@@ -1,1 +1,1 @@
-# projet_E1
+# Verbatim analysis and classification of polls from a bank
